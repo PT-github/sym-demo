@@ -1,0 +1,713 @@
+.s_phone header nav,.s_phone header .tel,.s_phone .platform-enter,.s_phone .swiper-container-vertical>.swiper-pagination-bullets,.s_phone .swiper-button{
+    display:none;
+}
+.s_phone header {
+    height: 0.88rem;
+    background-image: url(../imgs/topbg.jpg);
+    position: fixed;
+    width: 100%;
+    z-index: 999;
+}
+.s_phone header .logo {
+    width: 0.93rem;
+    height: 0.88rem;
+    background: url(../imgs/logo.png) no-repeat right center;
+    float: left;
+    background-size: .55rem auto;
+}
+.s_phone header .menu {
+    background-image: url(../imgs/menu.png);
+    float: right;
+    height: 0.88rem;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 0.7rem auto;
+    width: 1.2rem;
+}
+
+.s_phone .menu-container {
+    display: none;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1000;
+}
+.s_phone .menu-container .left {
+    background: transparent;
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+.s_phone .menu-container .right {
+    background-color: rgba(60, 65, 68, 1);
+    float: right;
+    width: 50%;
+    height: 100%;
+}
+.s_phone .menu-container .right nav {
+    padding-top: .4rem;
+}
+.s_phone .menu-container .right .contact-no {
+    color: #FFF;
+    height: .88rem;
+    line-height: .88rem;
+    font-size: 0.3rem;
+    background-repeat: no-repeat;
+    background-image: url(../imgs/telphone.png);
+    background-position: .32rem center;
+    text-indent: .8rem;
+    background-size: .4rem;
+    text-align: left;
+}
+.s_phone .menu-container .right nav a {
+    display: block;
+    color: #FFF;
+    font-size: 0.3rem;
+    margin: 0 auto .3rem;
+    padding-left: .8rem;
+    line-height: .5rem;
+    height: .5rem;
+}
+.s_phone .menu-container .right nav a:first-child{
+    background-image: url(../imgs/home.png);
+    background-repeat: no-repeat;
+    background-position: .4rem center;
+    background-size: .35rem;
+}
+.s_phone .menu-container .right hr{margin:0}
+.s_phone .menu-container.menu-active {
+    display: block;
+}
+.s_phone .menu-allnav {
+    background: url(../imgs/suyuan-phone_01.jpg) no-repeat center center;
+    background-size: 100% 100%;
+    height: 6.4rem;
+    position: relative;
+}
+.s_phone .menu-allnav .s-nav {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    background: #444;
+    opacity: 0.7;
+    width: 100%;
+    line-height: 0.4rem;
+}
+.s_phone .menu-allnav .s-nav a {
+    display: inline-block;
+    color: #FFF;
+    line-height: 0.95rem;
+    margin-right: .05rem;
+    font-size: .2rem;
+}
+.s_phone .menu-allnav .s-nav a.active {
+    border-bottom: 4px solid #31a948;
+    color: #31a948;
+}
+.s_phone .container .main{
+    display: none;
+    margin-bottom: 1.2rem;
+}
+.s_phone .container .main.selected{
+    display: block;
+}
+.s_phone .container .main .list{
+    margin-top: 0.6rem;
+}
+.s_phone .container .main .list .list-title {
+    text-align: center;
+    background: #31a948;
+    color: #fff;
+    font-size: 0.32rem;
+    padding: 0.12rem .16rem;
+}
+.s_phone .container .main .list .list-detail {
+    padding: 0.44rem 0.41rem;
+    background: #fff;
+}
+.s_phone .container .main .list .list-detail dl {
+    width: 100%;
+    list-style: none;
+    font-size: 0.26rem;
+    display: inline-block;
+    vertical-align: top;
+    float: left;
+    padding-bottom: 0.1rem;
+}
+.s_phone .container .main .list .renzheng dl dd{
+    vertical-align: top;
+}
+.s_phone .container .main .list .list-detail dl dt {
+    color: #4c5552;
+    display: inline;
+}
+.s_phone .container .main .list .list-detail dl dd {
+    color: #7a807e;
+    display: inline;
+}
+.s_phone .container .main .list-img .list-detail dl{
+    display: block;
+    width: 100%;
+    padding-bottom: 0.3rem;
+}
+.s_phone .container .main .list-img .list-detail dl dt{
+    display: block;
+    width: 20%;
+    padding-bottom: 0.1rem;
+}
+.s_phone .container .main .list-img .list-detail dl dd img{
+    width: 47%;
+}
+.s_phone .container .main .list-img .list-detail dl dd img:first-child{
+    margin-right: 0.4rem;
+}
+.s_phone .container .main .list .list-detail table{
+    font-size: 0.26rem;
+    border: 1px solid #eeeeee;
+    background: #fbfbfb;
+    width: 100%;
+}
+.s_phone .container .main .list .list-detail table th {
+    color: #435a54;
+    border: 1px solid #eeeeee;
+    padding: 0.2rem 0.3rem;
+    text-align: center;
+    /*white-space: nowrap;*/
+}
+.s_phone .container .main .list .list-detail table td {
+    color: #808b87;
+    border: 1px solid #eeeeee;
+    padding: 0.2rem;
+    text-align: center;
+    /*white-space: nowrap;*/
+}
+.s_phone .container .swiper .swiper-container .swiper-slide img{
+    width: 100%;
+}
+.s_phone .container .swiper-pagination {
+    bottom: -0.3rem;
+    left: 0;
+    width: 100%;
+}
+.s_phone .container .main .list .list-detail .list-one{
+    padding-top: 45px;
+}
+.s_phone .swiper-pagination-bullet-active {
+    background: #2fb34e;
+}
+.s_phone .swiper-pagination-bullet{
+    margin-right:0.1rem;
+}
+
+.s_phone .pc-show,.renzheng{
+    display: none;
+}
+.s_phone .mobile-show,.renzheng-mobile{
+    display: block;
+   
+}
+.s_phone .container .main .list .list-detail .renzheng-mobile dt{
+    display: inline-block;
+    height: 60px;
+}
+.s_phone .container .main .list .list-detail .renzheng-mobile dd{
+    width: 75%;
+    display: inline-block;
+    vertical-align: top;
+}
+.s_phone .mobile-show,.renzheng-mobile img{
+     vertical-align: top;
+}
+.s_phone .mobile-show img{
+    vertical-align: middle;
+}
+.s_phone .foot1{
+    background: url("../imgs/foot-phone_02.jpg") no-repeat center center;
+    /*height: 2.63rem;*/
+    position: relative;
+    background-size: 100% 100%;
+    padding-bottom: 20px;
+}
+.s_phone .foot1 .foot-center{
+    text-align: center;
+}
+.s_phone .foot1 .ewm{
+    display: inline-block;
+    line-height: 1;
+    margin-top: 0.3rem;
+    width: 25%;
+
+}
+.s_phone .foot1 .ewm:not(:last-child){
+    margin-right: 0.2rem;
+}
+.s_phone .foot1 .ewm span{
+    color: #fff;
+}
+.s_phone .foot1 .ewm img{
+    width: 100%;
+    height: 100%;
+    display: block;
+    /*margin: 0.2rem;*/
+    margin:0 0 0.2rem 0;
+}
+.s_phone .foot2{
+    background: url("../imgs/foot-phone_03.jpg") no-repeat center center;
+    position: relative;
+    background-size: 100% 100%;
+    height: 5.4rem;
+}
+.s_phone .foot2 .top{
+    display: none;
+}
+.s_phone .foot2 .saomiao{
+    position: absolute;
+    top: 16%;
+    left: 10%;
+    width: 2.1rem;
+    text-align: center;
+}
+.s_phone .foot2 .line{
+    width: 1px;
+    height: 2.1rem;
+    background: #b3dbda;
+    position: absolute;
+    right: 0;
+    top: 16%;
+    left: 48%;
+}
+.s_phone .foot2 .product{
+    width: 2.1rem;
+    height: 2.1rem;
+}
+.s_phone .foot2 .saomiao span{
+    color: #58635f;
+}
+.s_phone .foot2 .relation{
+    position: absolute;
+    top: 16%;
+    left: 49%;
+    /*width: 185px;*/
+    /*text-align: center;*/
+}
+.s_phone .foot2 .relation .telphone{
+    padding-top: 0.2rem;
+    text-align: left;
+    padding-left: 0.45rem;
+}
+.s_phone .foot2 .relation .telphone p{
+    font-size: 0.18rem;
+    color: #333333;
+    line-height: 2;
+}
+.s_phone .foot2 .relation .telphone p img{
+    vertical-align: middle;
+}
+.s_phone .foot2 .relation .telphone .title{
+    font-size: 0.2rem;
+    color: #546b6c;
+    line-height: 2.5;
+    font-weight: bold;
+}
+.s_phone .foot2 .relation .logo img{
+    vertical-align: bottom;
+    padding-right: 10px;
+}
+.s_phone .foot2 .relation .logo span{
+    display: inline-block;
+    width: 30%;
+    vertical-align: bottom;
+    height: 38px;
+    line-height: 1.5;
+    padding-left: 10px;
+    color: #58635f;
+    border-left: 1px solid #a1d6d4;
+}
+
+.s_phone .page-container {
+    padding-top: 0.88rem;
+}
+.s_phone .page-container .banner {
+    position: relative;
+    text-align: center;
+}
+.s_phone .page-container .banner img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+.s_phone .page-container .banner .content {
+    position: absolute;
+    font-size: 0.32rem;
+    width: 100%;
+    height: 0.8rem;
+    top: 50%;
+    margin-top: -0.4rem;
+    line-height: 0.4rem;
+    text-align: center;
+}
+.s_phone .page-title {
+    height: 0.88rem;
+    background: url(../imgs/topbg.jpg) no-repeat center center;
+    background-size: 100% 100%;
+    opacity: 0.8;
+    width: 100%;
+}
+.s_phone .page-title .left {
+    float: left;
+    padding-left: .35rem;
+    font-size: .2rem;
+    font-weight: bold;
+    color: #FFF;
+    height: 0.88rem;
+    line-height: 0.88rem;
+}
+.s_phone .page-title .right {
+    float: right;
+}
+.s_phone .page-title .right .right-search label {
+    display: inline-block;
+    font-size: .18rem;
+    width: 1rem;
+    height: 0.88rem;
+    line-height: 0.88rem;
+    color: #FFF;
+    float:left;
+}
+.s_phone .page-title .right .right-search .input-control {
+    display: inline-block;
+    width: 3rem;
+    height: 0.48rem;
+    margin-right: .35rem;
+    position: relative;
+    margin-top: 0.2rem;
+    float: right;
+}
+.s_phone .page-title .right .right-search .input-control input {
+    height: 100%;
+    background: none;
+    background-color: #FFF;
+    border: 1px solid #FFF;
+    width: 2.52rem;
+    padding: 0 .58rem 0 .1rem;
+    float:left;
+}
+.s_phone .page-title .right .right-search .input-control select{
+    width: 100%;
+    height: 100%;
+    font-size: .18rem;
+    display: block;
+}
+.s_phone .page-title .right .right-search .input-control .search-btn {
+    width: 0.48rem;
+    height: 0.48rem;
+    background-image: url(../imgs/search2.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: .35rem;
+    float: right;
+    background-color: #FFF;
+    border-left: 1px solid rgb(156,156,156);
+}
+
+.s_phone .table-box .table-header {
+    background-color: #99cc99;
+}
+.s_phone .table-box .table-header .tr,.s_phone .table-box .table-body .tr {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    height: 0.58rem;
+    line-height: 0.58rem;
+    font-size: .2rem;
+}
+.s_phone .table-box .table-header .tr .th,.s_phone .table-box .table-body .tr .td {
+    padding: 0 .1rem;
+    flex:1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.s_phone .table-box .table-header .tr .th:first-child,.s_phone .table-box .table-body .tr .td:first-child {
+    width: .8rem !important;
+    text-align: center;
+    flex:none;
+}
+.s_phone .table-box .table-header .tr .col-auto,.s_phone .table-box .table-body .tr .col-auto {
+    flex: 1;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+.s_phone .table-box .center {
+    text-align: center;
+}
+.s_phone .table-box .table-body .tr.even {
+    background-color: #ffff99;
+}
+.s_phone .table-box .table-header .tr .th:last-child,.s_phone .table-box .table-body .tr .td:last-child {
+    width: 2rem;
+    text-align: center;
+}
+.s_phone .table-box .table-header .tr .th.type, .s_phone .table-box .table-body .tr .td.type{
+    max-width: 1rem;
+}
+.s_phone .table-box .table-footer .pagination {
+    float: right;
+    height: 0.58rem;
+    font-size: .2rem;
+    margin-right: .1rem;
+    margin-top: .1rem;
+    margin-bottom: .1rem;
+}
+.s_phone .table-box .table-footer .pagination>div {
+    display: inline-block;
+    padding: 0 0.4rem;
+    line-height: 0.5rem;
+    height: 0.5rem;
+    border: 1px solid #CCC;
+    float: left;
+    margin-right: .1rem;
+}
+.s_phone .page-footer {
+    background-color: #dddddd;
+    padding: .15rem 0;
+}
+.s_phone .page-footer .foot-container {
+    border-top: 2px solid #c5c5c5;
+    padding: .3rem .5rem;
+    flex-wrap: wrap;
+    justify-content:space-around;
+}
+.s_phone .page-footer .erm {
+    margin-right: .2rem;
+    width: 1.5rem;
+}
+.s_phone .page-footer .erm p {
+    text-align: center;
+    font-size: .18rem;
+}
+.s_phone .page-footer .erm img {
+    width: 100%;
+    display: block;
+}
+.s_phone .page-footer .contack-box {
+    width: 100%;
+    margin-top: .1rem;
+}
+.s_phone .page-footer .contack-box p {
+    font-size: .18rem;
+    min-height: .3rem;
+    line-height: .3rem;
+}
+.s_phone .page-footer .contack-box a {
+    font-size: .18rem;
+    color: #000;
+    margin: 0 .1rem;
+    display: inline-block;
+}
+.s_phone .page-footer .contack-box a:first-child {
+    margin-left: 0;
+}
+.s_phone .page-footer .footer-pic img {
+    margin-right: .1rem;
+    float: left;
+}
+.s_phone .flow-container {
+    padding: .2rem;
+}
+.s_phone .flow-container .num {
+    width: .75rem;
+    background-image: url(../imgs/u536.png);
+    background-position: center;
+    background-size: .55rem auto;
+    text-align: center;
+    height: .65rem;
+    line-height: 0.48rem;
+    background-repeat: no-repeat;
+    color: #FFF;
+    font-size: .25rem;
+}
+.s_phone .flow-container .flow-container-title {
+    font-size: 0.3rem;
+    font-weight: bold;
+    flex: 1;
+    height: .65rem;
+    line-height: .55rem;
+    border-bottom: 2px solid red;
+}
+.s_phone .flow-container .flow-container-content {
+    font-size: .2rem;
+}
+.s_phone .flow-container .flow-container-content p {
+    margin-top: .2rem;
+    text-indent: .4rem;
+    padding-left: .75rem;
+}
+.s_phone .flow-container .flow-img-content {
+    padding-left: .75rem;
+}
+.s_phone .flow-container .flow-img-content img {
+    margin-top: .2rem;
+    width: 100%;
+}
+.s_phone .flow-container .flow-img-content img:last-child {
+    margin-bottom: .3rem;
+}
+.s_phone .case-img {
+    padding: .2rem .5rem;
+}
+.s_phone .case-img img {
+    width: 100%;
+    display:block;
+}
+
+.s_phone .case-product {
+    padding: .2rem .5rem;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.s_phone .case-product .product-item {
+    width: 27%;
+    margin: .1rem 0;
+}
+.s_phone .case-product .product-item .pic {
+    position: relative;
+}
+.s_phone .case-product .product-item img {
+    width: 100%;
+    display: block;
+}
+.s_phone .case-product .product-item .pic .ewm {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 50%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right bottom;
+}
+.s_phone .case-product .product-item p {
+    font-size: .18rem;
+    text-align: center;
+    height: .5rem;
+    line-height: .5rem;
+}
+.s_phone .notice-url {
+    font-size: 0.18rem;
+    color: blue;
+    margin: .3rem 0;
+}
+.s_phone .flow-img-content .contact-nav {
+    width: 100%;
+    margin: 0 auto;
+    height: .6rem;
+}
+.s_phone .flow-img-content .contact-nav a {
+    flex: 1;
+    text-align: center;
+    background-color: #58635f;
+    color: #FFF;
+    font-size: .18rem;
+    line-height: .6rem;
+    border-right: 1px solid #47544f;
+}
+.s_phone .flow-img-content .contact-nav a.active {
+    background-color: #31a948;
+}
+.s_phone .flow-img-content .contact-content {
+    width: 100%;
+    margin: .4rem auto 0;
+}
+.s_phone .flow-img-content .contact-content form {
+    width: 100%;
+}
+.s_phone .flow-img-content .contact-content label {
+    text-align: right;
+    line-height: .4rem;
+    font-size: .16rem;
+    color: #58635f;
+    margin-right: .05rem;
+    white-space: nowrap;
+    width: 1.6rem;
+}
+.s_phone .flow-img-content .contact-content label .col-red {
+    color: #e71a32;
+    font-size: .2rem;
+    padding: 0 5px;
+}
+.s_phone .flow-img-content .contact-content .input-control {
+    height: .4rem;
+    margin-bottom: .2rem;
+    position: relative;
+    flex: 1;
+}
+.s_phone .flow-img-content .contact-content .input-control input, .s_phone .flow-img-content .contact-content .input-control select {
+    background: #eeeeee;
+    border: none;
+    width: 100%;
+    height: 100%;
+    padding: 0 .16rem;
+    font-size: .16rem;
+    display: block;
+}
+.s_phone .flow-img-content .contact-content .input-control:last-child .submit {
+    height: .6rem;
+    background-color: #31a948;
+    font-size: .18rem;
+    color: #FFF;
+    line-height: .6rem;
+    text-align: center;
+}
+.s_phone .about-contack {
+    padding: .2rem 0 .5rem .75rem;
+}
+.s_phone .about-contack .erm img {
+    width: 1.87rem;
+    display: block;
+}
+.s_phone .about-contack p {
+    font-size: .18rem;
+}
+.s_phone .about-contack .contack-box {
+    flex: 1;
+}
+.s_phone .about-contack .contack-box p {
+    height: .4rem;
+    line-height: .4rem;
+    margin-left: .3rem;
+    background-position: left center;
+    background-repeat: no-repeat;
+    background-size: .2rem auto;
+    padding-left: .3rem;
+}
+.s_phone .about-contack .contack-box p {
+    background-image: url(../imgs/contact-icon_09.png);
+}
+.s_phone .about-contack .contack-box p.mail {
+    background-image: url(../imgs/contact-icon_13.png);
+}
+.s_phone .about-contack .contack-box p.address {
+    background-image: url(../imgs/contact-icon_17.png);
+}
+.s_phone .article{
+    font-size: .2rem;
+    margin: .1rem;
+    padding: .2rem;
+    border: 1px solid red;
+    border-radius: 5px;
+}
+.s_phone .article .title {
+    font-weight: bold;
+    text-align: center;
+    margin: .1rem 0 .05rem;
+}
+.s_phone .article .pub-date {
+    text-align: center;
+    font-size: .18rem;
+    color: #FF0000;
+}
